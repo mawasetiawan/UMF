@@ -6,54 +6,66 @@ html, body {
   margin: 0;
   padding: 0;
   font-size: 14px;
+  font-family: 'Inter', sans-serif;
 }
-.v1_844 {
-  width: 100%;
-  height: 100%;
-  background: rgba(41,50,234,1);
-  padding: 300px 92px;
-  margin: 10px;
-  opacity: 1;
-  position: absolute;
-  top: 0;
-  left: 0;
-  overflow: hidden;
+.header {
+  background: #2932EA;
+  padding: 10px 20px;
 }
-.v1_845 {
-  width: 100%;
-  height: 640px;
-  background: url("../images/gang bg.jpg");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 0;
-  left: 0;
-  overflow: hidden;
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
 }
-.v1_841 {
+nav ul li {
+  display: inline;
+}
+nav ul li a {
+  color: #FFF;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+.user-icon {
+  float: right;
+}
+.user-icon img {
+  width: 30px;
+}
+.content {
+  padding: 20px;
+}
+.search-bar input {
   width: 100%;
-  height: 640px;
-  background: rgba(148,23,219,1);
-  opacity: 1;
-  position: absolute;
-  top: 0;
-  left: 0;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.main-section {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.cards {
+  display: flex;
+  justify-content: space-around;
+}
+.card {
+  background: #9417DB;
+  color: #FFF;
+  padding: 20px;
+  width: 45%;
   box-shadow: -8px 19px 18px rgba(0, 0, 0, 0.16);
 }
-.v1_843 {
-  width: 344px;
-  color: rgba(255,255,255,1);
-  position: absolute;
-  top: 13px;
-  left: 65px;
-  font-family: Inter, sans-serif;
-  font-weight: normal;
-  font-size: 24px;
-  opacity: 1;
-  text-align: center;
+.card img {
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
 }
-.name {
-  color: #fff;
+.social-icons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+.social-icons img {
+  width: 20px;
 }
